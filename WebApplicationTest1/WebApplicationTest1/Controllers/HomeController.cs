@@ -10,7 +10,7 @@ namespace WebApplicationTest1.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index", "Modules");
         }
 
         public ActionResult About()
